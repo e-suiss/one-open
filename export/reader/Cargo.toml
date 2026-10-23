@@ -1,0 +1,22 @@
+[package]
+name = "esuiss-one-export-reader"
+description = "Reader for the One export package (app.suiss.one.export): typed structs, required-field checks, unknown fields skipped."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+readme = "README.md"
+keywords = ["export", "personal-data", "portability", "cddl"]
+categories = ["encoding", "parser-implementations"]
+include = ["src/**/*.rs", "Cargo.toml", "README.md"]
+
+[lib]
+name = "one_export_reader"
+
+[dependencies]
+serde = { workspace = true, features = ["std", "derive"] }
+serde_json = { workspace = true, features = ["std"] }
+
+[lints]
+workspace = true

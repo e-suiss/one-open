@@ -1,0 +1,131 @@
+# One Federation contract index: schemas by `$id`, test vectors and wire-behaviour tables.
+
+[[schema]]
+path = "schemas/agent-extension.v1.json"
+id = "https://suiss.app/schemas/one/federation/agent-extension/v1.json"
+
+[[schema]]
+path = "schemas/body.v1.json"
+id = "https://suiss.app/schemas/one/federation/body/v1.json"
+
+[[schema]]
+path = "schemas/common.v1.json"
+id = "https://suiss.app/schemas/one/federation/common/v1.json"
+
+[[schema]]
+path = "schemas/contact.v1.json"
+id = "https://suiss.app/schemas/one/federation/contact/v1.json"
+
+[[schema]]
+path = "schemas/disclosure.v1.json"
+id = "https://suiss.app/schemas/one/federation/disclosure/v1.json"
+
+[[schema]]
+path = "schemas/envelope.v1.json"
+id = "https://suiss.app/schemas/one/federation/envelope/v1.json"
+
+[[schema]]
+path = "schemas/handle-claims.v1.json"
+id = "https://suiss.app/schemas/one/federation/handle-claims/v1.json"
+
+[[schema]]
+path = "schemas/handle-protected-header.v1.json"
+id = "https://suiss.app/schemas/one/federation/handle-protected-header/v1.json"
+
+[[schema]]
+path = "schemas/handle.v1.json"
+id = "https://suiss.app/schemas/one/federation/handle/v1.json"
+
+[[schema]]
+path = "schemas/message.v1.json"
+id = "https://suiss.app/schemas/one/federation/message/v1.json"
+
+[[schema]]
+path = "schemas/note.v1.json"
+id = "https://suiss.app/schemas/one/federation/note/v1.json"
+
+[[schema]]
+path = "schemas/task.v1.json"
+id = "https://suiss.app/schemas/one/federation/task/v1.json"
+
+[[vectors]]
+path = "vectors/schema/message.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/federation/message/v1.json"
+
+[[vectors]]
+path = "vectors/schema/envelope.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/federation/envelope/v1.json"
+
+[[vectors]]
+path = "vectors/schema/body.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/federation/body/v1.json"
+
+[[vectors]]
+path = "vectors/schema/note.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/federation/note/v1.json"
+
+[[vectors]]
+path = "vectors/schema/contact.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/federation/contact/v1.json"
+
+[[vectors]]
+path = "vectors/schema/handle.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/federation/handle/v1.json"
+
+[[vectors]]
+path = "vectors/schema/handle-claims.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/federation/handle-claims/v1.json"
+
+[[vectors]]
+path = "vectors/schema/handle-protected-header.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/federation/handle-protected-header/v1.json"
+
+[[vectors]]
+path = "vectors/schema/task.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/federation/task/v1.json"
+
+[[vectors]]
+path = "vectors/schema/agent-extension.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/federation/agent-extension/v1.json"
+
+[[vectors]]
+path = "vectors/kind-mapping.json"
+kind = "behaviour"
+
+[[vectors]]
+path = "vectors/offer-version.json"
+kind = "behaviour"
+
+[[vectors]]
+path = "vectors/expiry.json"
+kind = "behaviour"
+
+[[vectors]]
+path = "vectors/note.json"
+kind = "behaviour"
+
+[[vectors]]
+path = "vectors/handle.json"
+kind = "behaviour"
+
+[[table]]
+path = "a2a-mapping.toml"
+
+[[table]]
+path = "a2a-conformance.toml"
+
+[[table]]
+path = "handle.toml"
+
+[[table]]
+path = "note-filter.toml"

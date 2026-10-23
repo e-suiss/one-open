@@ -1,0 +1,18 @@
+[package]
+name = "one-open-vectors"
+description = "Checks every JSON Schema in this repository against the 2020-12 metaschema and every schema vector against its schema."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[dependencies]
+boon = { workspace = true }
+serde = { workspace = true, features = ["std", "derive"] }
+serde_json = { workspace = true, features = ["std"] }
+toml = { workspace = true, features = ["std", "parse", "serde"] }
+
+[lints]
+workspace = true

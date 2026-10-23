@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest a change to a contract, the reader or the SDK.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem would this solve, and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+  - type: textarea
+    id: contracts
+    attributes:
+      label: Contracts affected
+      description: Schemas, tables or vectors this would change, if known.

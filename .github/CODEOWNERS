@@ -1,0 +1,15 @@
+*                         @ademceper
+
+/federation/              @ademceper
+/capability/              @ademceper
+/export/                  @ademceper
+/schemas/                 @ademceper
+/sdk/                     @ademceper
+/tools/                   @ademceper
+/.github/                 @ademceper
+/Cargo.toml               @ademceper
+/Cargo.lock               @ademceper
+/deny.toml                @ademceper
+/rust-toolchain.toml      @ademceper
+**/package-lock.json      @ademceper
+**/.npmrc                 @ademceper

@@ -1,0 +1,25 @@
+# Capability contract index: schemas by `$id`, test vectors and naming rules.
+
+[[schema]]
+path = "name.schema.json"
+id = "https://suiss.app/schemas/one/capability/name/v1.json"
+
+[[schema]]
+path = "definition.schema.json"
+id = "https://suiss.app/schemas/one/capability/definition/v1.json"
+
+[[vectors]]
+path = "vectors/definition.json"
+kind = "schema"
+schema = "https://suiss.app/schemas/one/capability/definition/v1.json"
+
+[[vectors]]
+path = "vectors/name.json"
+kind = "behaviour"
+
+[[vectors]]
+path = "vectors/negotiation.json"
+kind = "behaviour"
+
+[[table]]
+path = "naming.toml"

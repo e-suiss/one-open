@@ -1,0 +1,45 @@
+# Shared schemas the federation and capability schemas refer to, by `$id`.
+
+[[schema]]
+path = "intent/origin-set.json"
+id = "https://suiss.app/schemas/one/intent/origin-set/v1.json"
+
+[[schema]]
+path = "interaction/common.json"
+id = "https://suiss.app/schemas/one/interaction/common/v1.json"
+
+[[schema]]
+path = "memory/common.json"
+id = "https://suiss.app/schemas/one/memory/common/v1.json"
+
+[[schema]]
+path = "memory/data-class.json"
+id = "https://suiss.app/schemas/one/memory/data-class/v1.json"
+
+[[schema]]
+path = "memory/life-area.json"
+id = "https://suiss.app/schemas/one/memory/life-area/v1.json"
+
+[[schema]]
+path = "memory/retention-class.json"
+id = "https://suiss.app/schemas/one/memory/retention-class/v1.json"
+
+[[schema]]
+path = "memory/sensitive-class.json"
+id = "https://suiss.app/schemas/one/memory/sensitive-class/v1.json"
+
+[[schema]]
+path = "ontology/id.json"
+id = "https://suiss.app/schemas/one/ontology/id/v1.json"
+
+[[schema]]
+path = "ontology/reference.json"
+id = "https://suiss.app/schemas/one/ontology/reference/v1.json"
+
+[[schema]]
+path = "provenance/label.json"
+id = "https://suiss.app/schemas/one/provenance/label/v1.json"
+
+[[schema]]
+path = "task/common.json"
+id = "https://suiss.app/schemas/one/task/common/v1.json"
