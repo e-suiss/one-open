@@ -9,7 +9,7 @@ A definition carries:
 - exactly one `primary` action, plus `undo` when reversible or `compensate` when compensable;
 - closed JSON Schema 2020-12 **input and output schemas**, whose property names never name passwords, tokens, secrets, cookies or card data;
 - the grant scope and consequence tier (`CT0` to `CT3`), the autonomy ceiling, reversibility, the data classes it reads and writes, the surfaces an approval may be given on, its providers and its test status;
-- optional projections to an MCP tool, an A2A skill, Apple App Intents, Android App Functions or UCP.
+- optional projections to an MCP tool, an A2A skill, Apple App Intents, Android App Functions or UCP. An MCP tool name and an A2A skill id are the capability name verbatim; a UCP projection is only for `app.suiss.commerce` capabilities.
 
 Irreversible capabilities and capabilities with consequence tier `CT2` or `CT3` are approved only on a phone or desktop with a passkey.
 
@@ -31,5 +31,6 @@ Irreversible capabilities and capabilities with consequence tier `CT2` or `CT3` 
 | [`name.schema.json`](name.schema.json) | Names, versions, `extends`, negotiation declarations and capability references |
 | [`naming.toml`](naming.toml) | Grammar, error codes, reserved segments and negotiation steps |
 | [`vectors/definition.json`](vectors/definition.json) | Schema vectors for definitions |
+| [`vectors/projection.json`](vectors/projection.json) | Definitions whose MCP tool or A2A skill differs from the capability name, which a schema cannot express |
 | [`vectors/name.json`](vectors/name.json) | Name and version parsing vectors |
 | [`vectors/negotiation.json`](vectors/negotiation.json) | Negotiation vectors |

@@ -1,0 +1,714 @@
+[
+  {
+    "rule": "C-27",
+    "description": "MCP tool name other than the capability name is rejected",
+    "input": {
+      "type": "CapabilityDefinition",
+      "id": "cap_01k7n51z03ec1r600000000000",
+      "owner": {
+        "ref": "PartyRef",
+        "id": "person-ada"
+      },
+      "domain": {
+        "areas": [
+          "general"
+        ],
+        "project": null
+      },
+      "data_class": {
+        "kinds": [
+          "general"
+        ],
+        "sensitive": []
+      },
+      "retention_class": "one_memory",
+      "provenance": "record.trusted",
+      "recorded_at": "2026-10-16T09:00:00Z",
+      "version": 1,
+      "supersedes": null,
+      "status": "active",
+      "deleted_at": null,
+      "produced_by": {
+        "actor": "one",
+        "instance": {
+          "ref": "InstanceRef",
+          "id": "one-instance-ada"
+        },
+        "model_version": "mdl_01k7n51z06er38c00000000000",
+        "config_version": "registry-1"
+      },
+      "name": "app.suiss.transport.ride.request",
+      "capability_version": "2026-10-01",
+      "publisher": {
+        "ref": "PartyRef",
+        "id": "org-suiss"
+      },
+      "meaning": {
+        "tr": "Araç çağır",
+        "en": "Request a ride"
+      },
+      "actions": [
+        {
+          "role": "primary",
+          "action_ref": {
+            "namespace": "app.suiss.transport.ride.request",
+            "name": "request",
+            "version": "2026-10-01",
+            "schema_digest": "sha256:abababababababababababababababababababababababababababababababab"
+          }
+        },
+        {
+          "role": "compensate",
+          "action_ref": {
+            "namespace": "app.suiss.transport.ride.request",
+            "name": "cancel",
+            "version": "2026-10-01",
+            "schema_digest": "sha256:abababababababababababababababababababababababababababababababab"
+          }
+        }
+      ],
+      "input_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pickup",
+          "dropoff"
+        ],
+        "properties": {
+          "pickup": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place_ref"
+            ],
+            "properties": {
+              "place_ref": {
+                "type": "string"
+              }
+            }
+          },
+          "dropoff": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place_ref"
+            ],
+            "properties": {
+              "place_ref": {
+                "type": "string"
+              }
+            }
+          },
+          "ride_class": {
+            "enum": [
+              "standard",
+              "comfort",
+              "xl"
+            ]
+          },
+          "max_fare": {
+            "$ref": "#/$defs/money"
+          }
+        },
+        "$defs": {
+          "money": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value_minor",
+              "currency"
+            ],
+            "properties": {
+              "value_minor": {
+                "type": "integer"
+              },
+              "currency": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ride_ref",
+          "eta_minutes"
+        ],
+        "properties": {
+          "ride_ref": {
+            "type": "string"
+          },
+          "eta_minutes": {
+            "type": "integer"
+          }
+        }
+      },
+      "examples": [
+        {
+          "lang": "tr",
+          "utterance": "Eve bir taksi çağır",
+          "input": {
+            "pickup": {
+              "place_ref": "here"
+            },
+            "dropoff": {
+              "place_ref": "home"
+            }
+          }
+        },
+        {
+          "lang": "en",
+          "utterance": "Get me a ride home",
+          "input": {
+            "pickup": {
+              "place_ref": "here"
+            },
+            "dropoff": {
+              "place_ref": "home"
+            }
+          }
+        }
+      ],
+      "authority": {
+        "grant_scope": "app.suiss.transport.ride",
+        "consequence_tier": "CT1"
+      },
+      "autonomy_ceiling": "ask",
+      "reversibility": "compensable",
+      "data_access": {
+        "reads": {
+          "kinds": [
+            "location",
+            "personal"
+          ],
+          "sensitive": []
+        },
+        "writes": {
+          "kinds": [
+            "financial"
+          ],
+          "sensitive": []
+        }
+      },
+      "surface": {
+        "modalities": [
+          "voice",
+          "full_visual"
+        ],
+        "approval_ceiling": {
+          "surface_classes": [
+            "phone",
+            "desktop",
+            "watch",
+            "voice:car"
+          ],
+          "min_assurance": "device_unlock"
+        }
+      },
+      "providers": [
+        {
+          "provider_ref": "provider:ride-a",
+          "path_type": "api"
+        },
+        {
+          "provider_ref": "provider:ride-b",
+          "path_type": "browser"
+        }
+      ],
+      "test_status": {
+        "last_success_at": "2026-10-16T09:00:00Z",
+        "last_result": "pass",
+        "evaluation_ref": "eval:ride:42",
+        "verified": {
+          "reversibility": true,
+          "data_access": true,
+          "surface": true
+        }
+      },
+      "projections": {
+        "mcp_tool": "app.suiss.transport.route.plan",
+        "a2a_skill": "app.suiss.transport.ride.request"
+      }
+    },
+    "valid": false
+  },
+  {
+    "rule": "C-27",
+    "description": "A2A skill id other than the capability name is rejected",
+    "input": {
+      "type": "CapabilityDefinition",
+      "id": "cap_01k7n51z03ec1r600000000000",
+      "owner": {
+        "ref": "PartyRef",
+        "id": "person-ada"
+      },
+      "domain": {
+        "areas": [
+          "general"
+        ],
+        "project": null
+      },
+      "data_class": {
+        "kinds": [
+          "general"
+        ],
+        "sensitive": []
+      },
+      "retention_class": "one_memory",
+      "provenance": "record.trusted",
+      "recorded_at": "2026-10-16T09:00:00Z",
+      "version": 1,
+      "supersedes": null,
+      "status": "active",
+      "deleted_at": null,
+      "produced_by": {
+        "actor": "one",
+        "instance": {
+          "ref": "InstanceRef",
+          "id": "one-instance-ada"
+        },
+        "model_version": "mdl_01k7n51z06er38c00000000000",
+        "config_version": "registry-1"
+      },
+      "name": "app.suiss.transport.ride.request",
+      "capability_version": "2026-10-01",
+      "publisher": {
+        "ref": "PartyRef",
+        "id": "org-suiss"
+      },
+      "meaning": {
+        "tr": "Araç çağır",
+        "en": "Request a ride"
+      },
+      "actions": [
+        {
+          "role": "primary",
+          "action_ref": {
+            "namespace": "app.suiss.transport.ride.request",
+            "name": "request",
+            "version": "2026-10-01",
+            "schema_digest": "sha256:abababababababababababababababababababababababababababababababab"
+          }
+        },
+        {
+          "role": "compensate",
+          "action_ref": {
+            "namespace": "app.suiss.transport.ride.request",
+            "name": "cancel",
+            "version": "2026-10-01",
+            "schema_digest": "sha256:abababababababababababababababababababababababababababababababab"
+          }
+        }
+      ],
+      "input_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pickup",
+          "dropoff"
+        ],
+        "properties": {
+          "pickup": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place_ref"
+            ],
+            "properties": {
+              "place_ref": {
+                "type": "string"
+              }
+            }
+          },
+          "dropoff": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place_ref"
+            ],
+            "properties": {
+              "place_ref": {
+                "type": "string"
+              }
+            }
+          },
+          "ride_class": {
+            "enum": [
+              "standard",
+              "comfort",
+              "xl"
+            ]
+          },
+          "max_fare": {
+            "$ref": "#/$defs/money"
+          }
+        },
+        "$defs": {
+          "money": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value_minor",
+              "currency"
+            ],
+            "properties": {
+              "value_minor": {
+                "type": "integer"
+              },
+              "currency": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ride_ref",
+          "eta_minutes"
+        ],
+        "properties": {
+          "ride_ref": {
+            "type": "string"
+          },
+          "eta_minutes": {
+            "type": "integer"
+          }
+        }
+      },
+      "examples": [
+        {
+          "lang": "tr",
+          "utterance": "Eve bir taksi çağır",
+          "input": {
+            "pickup": {
+              "place_ref": "here"
+            },
+            "dropoff": {
+              "place_ref": "home"
+            }
+          }
+        },
+        {
+          "lang": "en",
+          "utterance": "Get me a ride home",
+          "input": {
+            "pickup": {
+              "place_ref": "here"
+            },
+            "dropoff": {
+              "place_ref": "home"
+            }
+          }
+        }
+      ],
+      "authority": {
+        "grant_scope": "app.suiss.transport.ride",
+        "consequence_tier": "CT1"
+      },
+      "autonomy_ceiling": "ask",
+      "reversibility": "compensable",
+      "data_access": {
+        "reads": {
+          "kinds": [
+            "location",
+            "personal"
+          ],
+          "sensitive": []
+        },
+        "writes": {
+          "kinds": [
+            "financial"
+          ],
+          "sensitive": []
+        }
+      },
+      "surface": {
+        "modalities": [
+          "voice",
+          "full_visual"
+        ],
+        "approval_ceiling": {
+          "surface_classes": [
+            "phone",
+            "desktop",
+            "watch",
+            "voice:car"
+          ],
+          "min_assurance": "device_unlock"
+        }
+      },
+      "providers": [
+        {
+          "provider_ref": "provider:ride-a",
+          "path_type": "api"
+        },
+        {
+          "provider_ref": "provider:ride-b",
+          "path_type": "browser"
+        }
+      ],
+      "test_status": {
+        "last_success_at": "2026-10-16T09:00:00Z",
+        "last_result": "pass",
+        "evaluation_ref": "eval:ride:42",
+        "verified": {
+          "reversibility": true,
+          "data_access": true,
+          "surface": true
+        }
+      },
+      "projections": {
+        "mcp_tool": "app.suiss.transport.ride.request",
+        "a2a_skill": "app.suiss.transport.route.plan"
+      }
+    },
+    "valid": false
+  },
+  {
+    "rule": "C-27",
+    "description": "Third-party extension projected under a Suiss name is rejected",
+    "input": {
+      "type": "CapabilityDefinition",
+      "id": "cap_01k7n51z03ec1r600000000000",
+      "owner": {
+        "ref": "PartyRef",
+        "id": "person-ada"
+      },
+      "domain": {
+        "areas": [
+          "general"
+        ],
+        "project": null
+      },
+      "data_class": {
+        "kinds": [
+          "general"
+        ],
+        "sensitive": []
+      },
+      "retention_class": "one_memory",
+      "provenance": "record.trusted",
+      "recorded_at": "2026-10-16T09:00:00Z",
+      "version": 1,
+      "supersedes": null,
+      "status": "active",
+      "deleted_at": null,
+      "produced_by": {
+        "actor": "one",
+        "instance": {
+          "ref": "InstanceRef",
+          "id": "one-instance-ada"
+        },
+        "model_version": "mdl_01k7n51z06er38c00000000000",
+        "config_version": "registry-1"
+      },
+      "name": "com.example-air.flight.book.seat_upgrade",
+      "capability_version": "2026-10-01",
+      "publisher": {
+        "ref": "PartyRef",
+        "id": "org-suiss"
+      },
+      "meaning": {
+        "tr": "Araç çağır",
+        "en": "Request a ride"
+      },
+      "actions": [
+        {
+          "role": "primary",
+          "action_ref": {
+            "namespace": "app.suiss.transport.ride.request",
+            "name": "request",
+            "version": "2026-10-01",
+            "schema_digest": "sha256:abababababababababababababababababababababababababababababababab"
+          }
+        },
+        {
+          "role": "compensate",
+          "action_ref": {
+            "namespace": "app.suiss.transport.ride.request",
+            "name": "cancel",
+            "version": "2026-10-01",
+            "schema_digest": "sha256:abababababababababababababababababababababababababababababababab"
+          }
+        }
+      ],
+      "input_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pickup",
+          "dropoff"
+        ],
+        "properties": {
+          "pickup": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place_ref"
+            ],
+            "properties": {
+              "place_ref": {
+                "type": "string"
+              }
+            }
+          },
+          "dropoff": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place_ref"
+            ],
+            "properties": {
+              "place_ref": {
+                "type": "string"
+              }
+            }
+          },
+          "ride_class": {
+            "enum": [
+              "standard",
+              "comfort",
+              "xl"
+            ]
+          },
+          "max_fare": {
+            "$ref": "#/$defs/money"
+          }
+        },
+        "$defs": {
+          "money": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value_minor",
+              "currency"
+            ],
+            "properties": {
+              "value_minor": {
+                "type": "integer"
+              },
+              "currency": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "output_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ride_ref",
+          "eta_minutes"
+        ],
+        "properties": {
+          "ride_ref": {
+            "type": "string"
+          },
+          "eta_minutes": {
+            "type": "integer"
+          }
+        }
+      },
+      "examples": [
+        {
+          "lang": "tr",
+          "utterance": "Eve bir taksi çağır",
+          "input": {
+            "pickup": {
+              "place_ref": "here"
+            },
+            "dropoff": {
+              "place_ref": "home"
+            }
+          }
+        },
+        {
+          "lang": "en",
+          "utterance": "Get me a ride home",
+          "input": {
+            "pickup": {
+              "place_ref": "here"
+            },
+            "dropoff": {
+              "place_ref": "home"
+            }
+          }
+        }
+      ],
+      "authority": {
+        "grant_scope": "app.suiss.transport.ride",
+        "consequence_tier": "CT1"
+      },
+      "autonomy_ceiling": "ask",
+      "reversibility": "compensable",
+      "data_access": {
+        "reads": {
+          "kinds": [
+            "location",
+            "personal"
+          ],
+          "sensitive": []
+        },
+        "writes": {
+          "kinds": [
+            "financial"
+          ],
+          "sensitive": []
+        }
+      },
+      "surface": {
+        "modalities": [
+          "voice",
+          "full_visual"
+        ],
+        "approval_ceiling": {
+          "surface_classes": [
+            "phone",
+            "desktop",
+            "watch",
+            "voice:car"
+          ],
+          "min_assurance": "device_unlock"
+        }
+      },
+      "providers": [
+        {
+          "provider_ref": "provider:ride-a",
+          "path_type": "api"
+        },
+        {
+          "provider_ref": "provider:ride-b",
+          "path_type": "browser"
+        }
+      ],
+      "test_status": {
+        "last_success_at": "2026-10-16T09:00:00Z",
+        "last_result": "pass",
+        "evaluation_ref": "eval:ride:42",
+        "verified": {
+          "reversibility": true,
+          "data_access": true,
+          "surface": true
+        }
+      },
+      "projections": {
+        "mcp_tool": "app.suiss.transport.ride.request",
+        "a2a_skill": "app.suiss.transport.ride.request"
+      },
+      "extends": "app.suiss.travel.flight.book"
+    },
+    "valid": false
+  }
+]

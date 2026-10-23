@@ -534,6 +534,27 @@
           }
         }
       }
+    },
+    {
+      "if": {
+        "properties": {
+          "projections": {
+            "required": [
+              "ucp"
+            ]
+          }
+        },
+        "required": [
+          "projections"
+        ]
+      },
+      "then": {
+        "properties": {
+          "name": {
+            "pattern": "^app\\.suiss\\.commerce\\."
+          }
+        }
+      }
     }
   ],
   "$defs": {
