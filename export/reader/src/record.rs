@@ -249,6 +249,8 @@ pub struct RecordHeader {
     pub recorded_at: Instant,
     /// Record version, from 1.
     pub version: core::num::NonZeroU64,
+    /// Privacy promise version the record was collected under, from 1.
+    pub promise_version: core::num::NonZeroU64,
     /// Always `null` on a live record.
     pub deleted_at: Null,
     /// Producer.

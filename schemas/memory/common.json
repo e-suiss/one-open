@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://suiss.app/schemas/one/memory/common/v1.json",
   "title": "Common",
-  "description": "Shared definitions and the C-19 common record header of every canonical record. Identifiers and references are defined only in the ontology contract and referred to here. C-19, T-28, M-6.",
+  "description": "Shared definitions and the C-19 common record header of every canonical record. Identifiers and references are defined only in the ontology contract and referred to here. C-19, PV-19, T-28, M-6.",
   "$defs": {
     "memory_record_id": {
       "$ref": "https://suiss.app/schemas/one/ontology/id/v1.json#/$defs/MemoryRecordId"
@@ -37,6 +37,11 @@
       "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
     },
     "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "promise_version": {
+      "description": "Version of the privacy promise in force when the record was collected; the record stays under that promise (PV-19, INV-26).",
       "type": "integer",
       "minimum": 1
     },
@@ -149,7 +154,7 @@
       }
     },
     "record_header": {
-      "description": "C-19 common fields of every canonical record, plus `type` (the concept name). `id` and `status` are typed by each record schema. Retention follows the data class (one_sensitive when it touches a PV-20 code, else one_memory); an Observation with a stored raw capture uses one_observation.",
+      "description": "C-19 common fields of every canonical record, with the PV-19 `promise_version`, plus `type` (the concept name). `id` and `status` are typed by each record schema. Retention follows the data class (one_sensitive when it touches a PV-20 code, else one_memory); an Observation with a stored raw capture uses one_observation.",
       "type": "object",
       "required": [
         "type",
@@ -160,6 +165,7 @@
         "provenance",
         "recorded_at",
         "version",
+        "promise_version",
         "supersedes",
         "deleted_at",
         "produced_by"
@@ -188,6 +194,9 @@
         },
         "version": {
           "$ref": "#/$defs/version"
+        },
+        "promise_version": {
+          "$ref": "#/$defs/promise_version"
         },
         "deleted_at": {
           "oneOf": [

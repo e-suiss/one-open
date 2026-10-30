@@ -32,7 +32,7 @@ fn read(document: &Value) -> Option<ExportDocument> {
 #[test]
 fn schema_vectors_accept_and_reject_as_expected() {
     let all = vectors("export-schema.json");
-    assert_eq!(all.len(), 18);
+    assert_eq!(all.len(), 19);
     for v in &all {
         assert_eq!(v["input"]["cddl"], json!("export.cddl"));
         assert_eq!(v["input"]["root"], json!("one-export"));

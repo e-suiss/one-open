@@ -1,5 +1,5 @@
 ; M-39, M-40, M-41, M-42, MD-8 (2), INV-27, PV-16
-; M-6, M-7, M-8, M-9, M-10, M-13, M-25, C-19
+; M-6, M-7, M-8, M-9, M-10, M-13, M-25, C-19, PV-19
 ; E-36, M-43, M-3, M-36, C-11, C-23, SEC-14, PV-20
 
 one-export = {
@@ -96,6 +96,7 @@ header = (
   provenance: provenance-label,
   recorded_at: instant,
   version: record-version,
+  promise_version: promise-version,
   deleted_at: null,
   produced_by: produced-by,
 )
@@ -313,6 +314,8 @@ adapter-export = {
 }
 
 record-version = uint .ge 1
+
+promise-version = uint .ge 1
 
 instant = tstr .regexp "[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(\\.[0-9]{1,9})?Z"
 

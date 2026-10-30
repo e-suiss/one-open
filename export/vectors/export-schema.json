@@ -43,6 +43,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -115,6 +116,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -196,6 +198,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -274,6 +277,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -330,6 +334,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -401,6 +406,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -617,6 +623,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -691,6 +698,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -772,6 +780,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -850,6 +859,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -906,6 +916,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -977,6 +988,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1138,6 +1150,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1210,6 +1223,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1291,6 +1305,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1369,6 +1384,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1425,6 +1441,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1496,6 +1513,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1650,6 +1668,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1722,6 +1741,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1803,6 +1823,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1881,6 +1902,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -1937,6 +1959,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2008,6 +2031,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2162,6 +2186,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2232,6 +2257,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2313,6 +2339,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2391,6 +2418,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2447,6 +2475,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2518,6 +2547,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2672,6 +2702,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2739,6 +2770,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2820,6 +2852,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2898,6 +2931,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -2954,6 +2988,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3025,6 +3060,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3179,6 +3215,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "status": "active",
               "deleted_at": null,
               "produced_by": {
@@ -3250,6 +3287,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3331,6 +3369,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3409,6 +3448,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3465,6 +3505,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3536,6 +3577,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3690,6 +3732,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3762,6 +3805,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3843,6 +3887,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3921,6 +3966,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -3977,6 +4023,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4048,6 +4095,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4198,6 +4246,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4270,6 +4319,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4351,6 +4401,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4429,6 +4480,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4485,6 +4537,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4556,6 +4609,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4706,6 +4760,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4778,6 +4833,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4859,6 +4915,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4937,6 +4994,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -4993,6 +5051,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5064,6 +5123,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5217,6 +5277,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5289,6 +5350,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5370,6 +5432,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5448,6 +5511,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5504,6 +5568,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5575,6 +5640,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5735,6 +5801,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5813,6 +5880,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5869,6 +5937,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -5940,6 +6009,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6048,6 +6118,523 @@
     },
     "expected": {
       "valid": true
+    }
+  },
+  {
+    "rule": "PV-19",
+    "description": "a live record keeps the privacy promise version it was collected under",
+    "input": {
+      "cddl": "export.cddl",
+      "root": "one-export",
+      "document": {
+        "format": "app.suiss.one.export",
+        "schema_version": 1,
+        "exported_at": "2026-10-16T10:00:05Z",
+        "owner": {
+          "ref": "PartyRef",
+          "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+        },
+        "generator": {
+          "name": "one-export",
+          "version": "1.0.0"
+        },
+        "retention_class": "one_sensitive",
+        "memory": {
+          "records": [
+            {
+              "type": "MemoryRecord",
+              "id": "mem_01k742vmbgez2rfct5dmnr31vp",
+              "owner": {
+                "ref": "PartyRef",
+                "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+              },
+              "domain": {
+                "areas": [
+                  "leisure"
+                ],
+                "project": null
+              },
+              "data_class": {
+                "kinds": [
+                  "personal"
+                ],
+                "sensitive": []
+              },
+              "retention_class": "one_memory",
+              "provenance": "one.inferred",
+              "recorded_at": "2026-10-02T03:00:00Z",
+              "version": 1,
+              "supersedes": null,
+              "status": "active",
+              "deleted_at": null,
+              "produced_by": {
+                "actor": "one",
+                "instance": {
+                  "ref": "InstanceRef",
+                  "id": "ins_01k742sgz8ezrvb1ad5hsd1p0p"
+                },
+                "model_version": "mdl_01k742sgz8fpttyr5nkb810tbn",
+                "config_version": "consolidation-1"
+              },
+              "content_type": "preference",
+              "epistemic_state": "inferred",
+              "layer": "consolidated_fact",
+              "time_kind": "permanent",
+              "valid_from": "2026-09-01T00:00:00Z",
+              "valid_to": null,
+              "superseded_at": null,
+              "source_episodes": [
+                "epi_01k742sgz8fpbvee16bvnbpem8"
+              ],
+              "source_kind": "user_behaviour",
+              "evidence": {
+                "observation_count": 17,
+                "supporting_count": 14,
+                "first_observed_at": "2026-09-01T08:05:00Z",
+                "last_observed_at": "2026-10-01T08:10:00Z",
+                "contradicting_records": [],
+                "user_confirmed_at": null
+              },
+              "trust": {
+                "value": 0.789381,
+                "formula": "trust/v1",
+                "computed_at": "2026-10-02T03:00:00Z"
+              },
+              "alternative_explanations": [],
+              "usage_restriction": null,
+              "about": [
+                {
+                  "ref": "PartyRef",
+                  "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+                }
+              ],
+              "statement": {
+                "text": "Prefers an Americano in the morning.",
+                "lang": "en"
+              }
+            },
+            {
+              "type": "MemoryRecord",
+              "id": "mem_01k742vnarf6zrb7tc92gs2asv",
+              "owner": {
+                "ref": "PartyRef",
+                "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+              },
+              "domain": {
+                "areas": [
+                  "general"
+                ],
+                "project": null
+              },
+              "data_class": {
+                "kinds": [
+                  "personal"
+                ],
+                "sensitive": []
+              },
+              "retention_class": "one_memory",
+              "provenance": "user.memory",
+              "recorded_at": "2026-10-02T03:00:00Z",
+              "version": 1,
+              "promise_version": 1,
+              "supersedes": null,
+              "status": "active",
+              "deleted_at": null,
+              "produced_by": {
+                "actor": "user"
+              },
+              "content_type": "constraint",
+              "epistemic_state": "stated",
+              "layer": "behaviour_rule",
+              "time_kind": "permanent",
+              "valid_from": "2026-09-01T00:00:00Z",
+              "valid_to": null,
+              "superseded_at": null,
+              "source_episodes": [
+                "epi_01k742sgz8fpbvee16bvnbpem8"
+              ],
+              "source_kind": "user_statement",
+              "evidence": {
+                "observation_count": 1,
+                "supporting_count": 1,
+                "first_observed_at": "2026-10-01T08:10:00Z",
+                "last_observed_at": "2026-10-01T08:10:00Z",
+                "contradicting_records": [],
+                "user_confirmed_at": null
+              },
+              "trust": {
+                "value": 0.95442,
+                "formula": "trust/v1",
+                "computed_at": "2026-10-02T03:00:00Z"
+              },
+              "alternative_explanations": [],
+              "usage_restriction": null,
+              "about": [
+                {
+                  "ref": "PartyRef",
+                  "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+                }
+              ],
+              "statement": {
+                "text": "Keep replies short in the morning.",
+                "lang": "en"
+              }
+            },
+            {
+              "type": "MemoryRecord",
+              "id": "mem_01k742vr8ge0tsbhapx3xf08n6",
+              "owner": {
+                "ref": "PartyRef",
+                "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+              },
+              "version": 1,
+              "status": "forgotten",
+              "recorded_at": "2026-10-02T03:00:00Z",
+              "deleted_at": "2026-10-10T12:00:00Z",
+              "retention_class": "one_memory"
+            }
+          ],
+          "relationship_edges": [
+            {
+              "type": "MemoryRecord",
+              "id": "mem_01k742vpa0f8fbngm6gc1d07aw",
+              "owner": {
+                "ref": "PartyRef",
+                "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+              },
+              "domain": {
+                "areas": [
+                  "work"
+                ],
+                "project": null
+              },
+              "data_class": {
+                "kinds": [
+                  "personal"
+                ],
+                "sensitive": []
+              },
+              "retention_class": "one_memory",
+              "provenance": "user.memory",
+              "recorded_at": "2026-10-02T03:00:00Z",
+              "version": 1,
+              "promise_version": 1,
+              "supersedes": null,
+              "status": "active",
+              "deleted_at": null,
+              "produced_by": {
+                "actor": "user"
+              },
+              "content_type": "relationship",
+              "epistemic_state": "stated",
+              "layer": "consolidated_fact",
+              "time_kind": "permanent",
+              "valid_from": "2026-09-01T00:00:00Z",
+              "valid_to": null,
+              "superseded_at": null,
+              "source_episodes": [
+                "epi_01k742sgz8fpbvee16bvnbpem8"
+              ],
+              "source_kind": "user_statement",
+              "evidence": {
+                "observation_count": 1,
+                "supporting_count": 1,
+                "first_observed_at": "2026-09-01T08:05:00Z",
+                "last_observed_at": "2026-10-01T08:10:00Z",
+                "contradicting_records": [],
+                "user_confirmed_at": null
+              },
+              "trust": {
+                "value": 0.95442,
+                "formula": "trust/v1",
+                "computed_at": "2026-10-02T03:00:00Z"
+              },
+              "alternative_explanations": [],
+              "usage_restriction": null,
+              "about": [
+                {
+                  "ref": "PartyRef",
+                  "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+                }
+              ],
+              "statement": {
+                "text": "Can Kaya is my manager.",
+                "lang": "en"
+              },
+              "subject": {
+                "ref": "PartyRef",
+                "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+              },
+              "predicate": "has_manager",
+              "object": {
+                "ref": "ExternalPersonRef",
+                "system": "contacts",
+                "locator": "synthetic-can-kaya"
+              }
+            }
+          ],
+          "episodes": [
+            {
+              "type": "Episode",
+              "id": "epi_01k742sgz8fpbvee16bvnbpem8",
+              "owner": {
+                "ref": "PartyRef",
+                "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+              },
+              "domain": {
+                "areas": [
+                  "leisure"
+                ],
+                "project": null
+              },
+              "data_class": {
+                "kinds": [
+                  "personal"
+                ],
+                "sensitive": []
+              },
+              "retention_class": "one_memory",
+              "provenance": "user.direct",
+              "recorded_at": "2026-10-01T08:10:05Z",
+              "version": 1,
+              "promise_version": 1,
+              "supersedes": null,
+              "status": "active",
+              "deleted_at": null,
+              "produced_by": {
+                "actor": "user"
+              },
+              "kind": "conversation",
+              "modes": [
+                "text"
+              ],
+              "started_at": "2026-10-01T08:09:00Z",
+              "ended_at": "2026-10-01T08:10:00Z",
+              "entries": [
+                {
+                  "seq": 0,
+                  "at": "2026-10-01T08:09:00Z",
+                  "actor": "user",
+                  "kind": "conversation_turn",
+                  "source_kind": "user_statement",
+                  "provenance": "user.direct",
+                  "content": {
+                    "text": "I usually take an Americano in the morning.",
+                    "lang": "en"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "sensitive": {
+          "records": [
+            {
+              "type": "MemoryRecord",
+              "id": "mem_01k742vq98fhp89b8749kgynv6",
+              "owner": {
+                "ref": "PartyRef",
+                "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+              },
+              "domain": {
+                "areas": [
+                  "health"
+                ],
+                "project": null
+              },
+              "data_class": {
+                "kinds": [
+                  "personal"
+                ],
+                "sensitive": [
+                  "health"
+                ]
+              },
+              "retention_class": "one_sensitive",
+              "provenance": "user.memory",
+              "recorded_at": "2026-10-02T03:00:00Z",
+              "version": 1,
+              "promise_version": 1,
+              "supersedes": null,
+              "status": "active",
+              "deleted_at": null,
+              "produced_by": {
+                "actor": "user"
+              },
+              "content_type": "constraint",
+              "epistemic_state": "stated",
+              "layer": "consolidated_fact",
+              "time_kind": "permanent",
+              "valid_from": "2026-09-01T00:00:00Z",
+              "valid_to": null,
+              "superseded_at": null,
+              "source_episodes": [
+                "epi_01k742sgz8fpbvee16bvnbpem8"
+              ],
+              "source_kind": "user_statement",
+              "evidence": {
+                "observation_count": 1,
+                "supporting_count": 1,
+                "first_observed_at": "2026-10-01T08:10:00Z",
+                "last_observed_at": "2026-10-01T08:10:00Z",
+                "contradicting_records": [],
+                "user_confirmed_at": null
+              },
+              "trust": {
+                "value": 0.95442,
+                "formula": "trust/v1",
+                "computed_at": "2026-10-02T03:00:00Z"
+              },
+              "alternative_explanations": [],
+              "usage_restriction": null,
+              "about": [
+                {
+                  "ref": "PartyRef",
+                  "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+                }
+              ],
+              "statement": {
+                "text": "Fıstık alerjim var.",
+                "lang": "tr"
+              }
+            }
+          ],
+          "relationship_edges": [],
+          "episodes": [
+            {
+              "type": "Episode",
+              "id": "epi_01k742smw8fj0r72d1y5e2yk7t",
+              "owner": {
+                "ref": "PartyRef",
+                "id": "pty_01k742sgz8ea9tc04vraj0cqss"
+              },
+              "domain": {
+                "areas": [
+                  "health"
+                ],
+                "project": null
+              },
+              "data_class": {
+                "kinds": [
+                  "personal"
+                ],
+                "sensitive": [
+                  "health"
+                ]
+              },
+              "retention_class": "one_sensitive",
+              "provenance": "user.direct",
+              "recorded_at": "2026-10-01T08:10:05Z",
+              "version": 1,
+              "promise_version": 1,
+              "supersedes": null,
+              "status": "active",
+              "deleted_at": null,
+              "produced_by": {
+                "actor": "user"
+              },
+              "kind": "conversation",
+              "modes": [
+                "text"
+              ],
+              "started_at": "2026-10-01T08:09:00Z",
+              "ended_at": "2026-10-01T08:10:00Z",
+              "entries": [
+                {
+                  "seq": 0,
+                  "at": "2026-10-01T08:09:00Z",
+                  "actor": "user",
+                  "kind": "conversation_turn",
+                  "source_kind": "user_statement",
+                  "provenance": "user.direct",
+                  "content": {
+                    "text": "Fıstık alerjim var.",
+                    "lang": "tr"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "excluded_sections": [],
+        "personality": {
+          "profile": {
+            "name": "Deniz",
+            "form_of_address": "sen",
+            "style": "short",
+            "values": [
+              "punctuality"
+            ]
+          },
+          "rules": [
+            "mem_01k742vnarf6zrb7tc92gs2asv"
+          ]
+        },
+        "grants": {
+          "source": "access-e65",
+          "read_at": "2026-10-16T10:00:00Z",
+          "schema": "https://suiss.app/schemas/access/e65/grant-summary/v1.json",
+          "items": [
+            {
+              "summary": "One may read your calendar until 2027-01-01."
+            }
+          ]
+        },
+        "connections": {
+          "source": "access-e65",
+          "read_at": "2026-10-16T10:00:00Z",
+          "schema": "https://suiss.app/schemas/access/e65/connections/v1.json",
+          "items": [
+            {
+              "summary": "One may read your calendar until 2027-01-01."
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "id": "task_01k742sgz8egxtg7h06dp57qhc",
+            "created_at": "2026-10-05T09:00:00Z",
+            "state": "done",
+            "goal": {
+              "text": "Book a table for two on Friday.",
+              "lang": "en"
+            },
+            "steps": [
+              {
+                "capability": "app.suiss.dining.table.reserve",
+                "state": "done",
+                "result": {
+                  "text": "Reserved for 20:00.",
+                  "lang": "en"
+                }
+              }
+            ],
+            "outcome": {
+              "text": "Table reserved.",
+              "lang": "en"
+            }
+          }
+        ],
+        "adapter": {
+          "id": "adp_01k742sgz8e4p9cr7xrw997te8",
+          "base_model": {
+            "name": "example-base-model",
+            "version": "2026-09"
+          },
+          "trained_at": "2026-10-01T02:00:00Z",
+          "format": "safetensors",
+          "sha256": "630dcd2966c4336691125448bbb25b4ff412a49c732db2c8abc1b8581bd710dd",
+          "weights_b64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8",
+          "note": {
+            "text": "These weights work only with the base model named here.",
+            "lang": "en"
+          }
+        },
+        "text_view": "One export for the owner, 2026-10-16.\nMemory: 3 records, 1 relationship edge, 1 episode.\n"
+      }
+    },
+    "expected": {
+      "valid": false
     }
   },
   {
@@ -6165,6 +6752,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6246,6 +6834,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6324,6 +6913,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6380,6 +6970,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6451,6 +7042,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6605,6 +7197,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6677,6 +7270,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6758,6 +7352,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6836,6 +7431,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6892,6 +7488,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -6963,6 +7560,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7117,6 +7715,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7189,6 +7788,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7270,6 +7870,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7348,6 +7949,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7404,6 +8006,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7475,6 +8078,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7629,6 +8233,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7701,6 +8306,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7782,6 +8388,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7860,6 +8467,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7916,6 +8524,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -7987,6 +8596,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -8141,6 +8751,7 @@
               "provenance": "one.inferred",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -8213,6 +8824,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -8294,6 +8906,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -8372,6 +8985,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -8428,6 +9042,7 @@
               "provenance": "user.memory",
               "recorded_at": "2026-10-02T03:00:00Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,
@@ -8499,6 +9114,7 @@
               "provenance": "user.direct",
               "recorded_at": "2026-10-01T08:10:05Z",
               "version": 1,
+              "promise_version": 1,
               "supersedes": null,
               "status": "active",
               "deleted_at": null,

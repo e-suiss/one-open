@@ -153,6 +153,8 @@ export interface CapabilityDefinition {
   readonly recorded_at: Instant;
   /** Record version, from 1. */
   readonly version: number;
+  /** Privacy promise version the record was collected under, from 1. */
+  readonly promise_version: number;
   readonly deleted_at: Instant | null;
   readonly produced_by: ProducedBy;
   /** Capability name. */

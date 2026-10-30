@@ -10,5 +10,5 @@ fn schemas_compile_and_schema_vectors_hold() {
     let report = one_open_vectors::check(&root).unwrap();
     assert_eq!(report.problems, Vec::<String>::new());
     assert_eq!(report.schemas, 25);
-    assert_eq!(report.vectors, 170);
+    assert_eq!(report.vectors, 172);
 }
